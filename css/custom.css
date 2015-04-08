@@ -1,0 +1,25 @@
+body {
+  background: black;
+}
+
+#horizon {
+  width: 100%;
+}
+
+.quote-box {
+  margin-top: 20%;
+}
+
+button, #astro {
+  margin-left: 50%;
+}
+
+#quote {
+  font-family: 'Press Start 2P';
+  min-height: 50px;
+  color: #eee;
+}
+
+#astro:hover {
+  cursor: pointer;
+}
