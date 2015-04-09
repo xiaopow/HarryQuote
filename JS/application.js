@@ -48,7 +48,8 @@ $(document).ready(function(){
     "Omg! Did it go to Mars? OMG! Did I go to Mars? - HC",
     "I'm not EVEN joking - HC",
     "WoW - HC",
-    "෴ -HC"
+    "෴ -HC",
+    "It's kinda like a prostitution - MDC"
   ];
 
   var totalClick = 0;
@@ -63,8 +64,9 @@ $(document).ready(function(){
     postQuote();
     totalClick++;
 
-    if (totalClick > 100) {
+    if (totalClick === 100) {
       alert("100 clicks");
+      totalClick = 0
     }
   });
 
