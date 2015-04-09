@@ -2,16 +2,20 @@ body {
   background: black;
 }
 
-#horizon {
-  width: 100%;
+.container {
+  background: url("../assets/horizon.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .quote-box {
-  margin-top: 20%;
+  margin-top: 10vh;
+  margin-left: 10vw;
 }
 
-button, #astro {
-  margin-left: 50%;
+#astro {
+  margin-left: 60vw;
 }
 
 #quote {
