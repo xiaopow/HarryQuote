@@ -27,3 +27,44 @@ body {
 #astro:hover {
   cursor: pointer;
 }
+
+/*Harrynaut animations*/
+
+.dontDisplay {
+  display: none;
+}
+
+large peanut dancing in middle*/
+keyframes spaceWalk{
+  0% {width: 5px; left: 0%; top: 30%;}
+  40% {width: 5px; left: 101%; top: 30%;}
+  50% {width: 290px; left: 103%; top: 10%;}
+  100% {width: 290px; left: -30%; top: 10%;}
+}
+@-webkit-keyframes spaceWalk {
+  /*0% {width: 1px; left: 100%; top: 50%;}
+  40% {width: 250px; left: 60%; top: 35%;}
+  50% {width: 290px; top: 35%;}
+  70% {width: 250px; left: 15%; top: 35%;}
+  100% {width: 1px; left: 0%; top: 50%;}*/
+  0% {width: 5px; left: 0%; top: 30%;}
+  40% {width: 5px; left: 101%; top: 30%;}
+  50% {width: 290px; left: 103%; top: 10%;}
+  100% {width: 290px; left: -30%; top: 10%;}
+}
+@-moz-keyframes spaceWalk {
+  0% {width: 5px; left: 0%; top: 30%;}
+  40% {width: 5px; left: 101%; top: 30%;}
+  50% {width: 290px; left: 103%; top: 10%;}
+  100% {width: 290px; left: -30%; top: 10%;}
+}
+
+.harrynaut {
+  animation: spaceWalk 60s linear;
+  -webkit-animation: spaceWalk 60s linear;
+  -moz-animation: spaceWalk 60s linear;
+  display: inherit;
+  position: fixed;
+  /*left: 80%;*/
+  /*top: 20%;*/
+}

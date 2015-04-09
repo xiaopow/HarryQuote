@@ -48,7 +48,7 @@ $(document).ready(function(){
     "Omg! Did it go to Mars? OMG! Did I go to Mars? - HC",
     "I'm not EVEN joking - HC",
     "WoW - HC",
-    "෴ -HC",
+    "෴ - HC",
     "It's kinda like a prostitution - MDC"
   ];
 
@@ -65,7 +65,14 @@ $(document).ready(function(){
     totalClick++;
 
     if (totalClick === 100) {
-      alert("100 clicks");
+      // alert("100 clicks");
+      $('.main').fadeOut(5000, function(){
+        $('#harrynaut').addClass('harrynaut');
+        setTimeout(function(){
+            $('.main').fadeIn(5000);
+            $('#harrynaut').removeClass('harrynaut');
+        },60000);
+      });
       totalClick = 0
     }
   });
