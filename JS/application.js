@@ -109,8 +109,8 @@ $(document).ready(function(){
 
   //   ]
 // var randomDB = Math.round(Math.random() * db.length);    
-// var dbQ = db[randomDB.quote];
-// var dbA = db[randomDB.author];
+// var dbQ = db[randomDB].quote;
+// var dbA = db[randomDB].author;
 //$('#quote').text(dbQ + " - " + dbA)
 
   function postQuote() {
