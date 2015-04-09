@@ -48,7 +48,8 @@ $(document).ready(function(){
   "Omg! Did it go to Mars? OMG! Did I go to Mars? - HC",
   "I'm not EVEN joking - HC",
   "WoW - HC",
-  "෴ -HC"
+  "෴ -HC",
+  "It's kinda like a prostitution - MDC"
   ]
 
   function postQuote() {
