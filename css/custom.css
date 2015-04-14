@@ -37,7 +37,7 @@ body {
   color: #eee;
 }
 
-#astro:hover , #submit-quote:hover{
+#astro:hover {
   cursor: pointer;
 }
 
