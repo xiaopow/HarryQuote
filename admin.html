@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harry Quotes</title>
+
+    <!-- loading jquery library bootstrap jquery library and custom app.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/admin.js"></script>
+
+    <!-- loading bootstrap css and custom css -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/admin.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div role="tabpanel">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+            <li role="presentation"><a href="#new-quotes-tab" aria-controls="new-quotes-tab" role="tab" data-toggle="tab">New Quotes</a></li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+              <div class="search-box">
+                <input type="text" id="search-term" class="col-xs-6" name="keyword" placeholder="Keyword">
+                <button class="btn btn-primary" id="search">Search</button>
+                <button class="btn btn-primary" id="get-all-quotes">All Quotes</button>
+              </div>
+              <div class="add-box">
+                <input type="text" id="new-quote" class="col-xs-6" name="quote" placeholder="Quote">
+                <input type="text" id="author" class="col-xs-4" name="author" placeholder="Author">
+                <button class="btn btn-primary" id="add">Add</button>
+              </div>
+              <div class="all-quotes-content">
+                <div class="title">
+                  <div class="col-lg-2 hidden-md hidden-sm hidden-xs">ID</div>
+                  <div class="col-xs-6 col-sm-5">Quote</div>
+                  <div class="col-xs-2 col-sm-2">Author</div>
+                </div>
+                <div class="return-content">
+                  
+                </div>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="new-quotes-tab">
+              <p>asdfasdfasdf</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>

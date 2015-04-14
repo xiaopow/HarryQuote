@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Harry Quotes</title>
+  <head>
+    <title>Harry Quotes</title>
 
-  <!-- loading jquery library bootstrap jquery library and custom app.js -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="js/application.js"></script>
+    <!-- loading jquery library bootstrap jquery library and custom app.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/application.js"></script>
 
-  <!-- loading bootstrap css and custom css -->
-  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
-  <!-- custom font -->
-  <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <!-- loading bootstrap css and custom css -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- custom font -->
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 quote-box main">
-        <p id="quote">Qlick the Astro for a random Harry Quote.</p>
-      </div>
-      <div class="col-xs-12 astro main">
-        <img id="astro" src="assets/astro.png">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row main">
+        <div>
+          <div class="text-right col-xs-6 col-xs-offset-6" id="submit-quote">Submit a Quote</div>
+          <div class="submit-form dontDisplay col-xs-12">
+            <input type="text" id="new-quote" class="col-xs-8" name="quote" placeholder="Quote">
+            <input type="text" id="author" class="col-xs-4" name="author" placeholder="Author">
+            <div class="submit-box">
+              <input type="password" id="password" class="col-xs-3 col-xs-offset-8" name="password" placeholder="Password">
+              <button class="btn btn-primary col-xs-1" id="submit">Send</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 quote-box">
+          <p id="quote">Qlick the Astro for a random Harry Quote.</p>
+        </div>
+        <div class="col-xs-12 astro main">
+          <img id="astro" src="assets/astro.png">
+        </div>
       </div>
     </div>
-  </div>
-  <div>
-    <img id="harrynaut" class="dontDisplay" src="assets/Harrynaut.png">
-  </div>
-</body>
+    <div>
+      <img id="harrynaut" class="dontDisplay" src="assets/Harrynaut.png">
+    </div>
+  </body>
 </html>

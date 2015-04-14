@@ -9,6 +9,19 @@ body {
   width: 100vw;
 }
 
+#submit {
+  height: 26px;
+  padding: 3px 12px;
+}
+
+#submit-quote {
+  color: #6d6c6c;
+}
+
+.submit-box {
+  margin-top: 10px;
+}
+
 .quote-box {
   margin-top: 10vh;
   margin-left: 10vw;
@@ -24,7 +37,7 @@ body {
   color: #eee;
 }
 
-#astro:hover {
+#astro:hover , #submit-quote:hover{
   cursor: pointer;
 }
 
